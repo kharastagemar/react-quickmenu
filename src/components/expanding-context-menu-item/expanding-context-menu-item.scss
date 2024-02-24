@@ -1,0 +1,55 @@
+.expanding-context-menu-item {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+
+  &:hover {
+    background-color: #f5f5f5;
+  }
+
+  &--dark {
+    color: #ffffff;
+
+    &:hover {
+      background-color: rgb(64, 64, 64);
+    }
+
+    &:disabled {
+      color: rgb(113, 113, 113);
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  &:disabled:hover {
+    background-color: transparent;
+  }
+}
+
+.expanding-context-menu-item-text {
+  font-size: 14px;
+}
+
+.expanding-context-menu-item svg path {
+  fill: rgb(66, 66, 66);
+}
+
+.expanding-context-menu-item:disabled svg path {
+  fill: rgb(194, 194, 194);
+}
+
+.expanding-context-menu-item--dark svg path {
+  fill: rgb(220, 220, 220);
+}
+
+.expanding-context-menu-item--dark:disabled svg path {
+  fill: rgb(116, 116, 116);
+}
