@@ -1,3 +1,5 @@
+[![](https://img.shields.io/npm/v/react-quickmenu)](https://www.npmjs.com/package/react-quickmenu)
+
 ## Playground
 
 [See the live demo on playground ↗](https://react-quickmenu.vercel.app/playground)
