@@ -10,6 +10,12 @@
     "prettify": "prettier --config ./.prettierrc.js --write \"src/**/*.{ts,tsx}\"",
     "type-check:watch": "tsc --watch"
   },
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "contextmenu"
+  ],
   "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-eslint": "^9.0.5",
